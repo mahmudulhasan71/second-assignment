@@ -99,3 +99,106 @@
     width: 100%;
 }
 
+/* main-section */
+/* our-plants-section */
+.our-plants{
+    max-width: 1020px;
+    margin: 50px auto;
+    /* justify-content: center; */
+    text-align: center;
+}
+.our-plants .content{
+    
+}
+.our-plants .content h2{
+    font-size: 40px;
+
+}
+.our-plants .content p{
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* justify-content: baseline; */
+    margin-top: 35px;
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+.grid .card{
+    max-width: 240px;
+    /* justify-content: baseline; */
+}
+.grid .card img{
+    width: 100%;
+}
+.card .price{
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.card .primary-btn{
+    width:240px;
+    height: 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* blog-section */
+.blog{
+    max-width: 1020px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.blog .blog-image{
+    max-width:500px;
+    
+}
+ 
+.blog .blog-image img{
+    width: 100%;
+    height: 520px;
+    
+}
+.blog .blog-content{
+    max-width: 500px;
+    padding: 5px;
+    
+}
+ 
+.blog .blog-content h2{
+    font-size: 35px;
+
+}
+ 
+.blog .blog-content ul{
+    margin-top: 0px;
+    
+
+}
+ 
+.blog .blog-content ul li{
+    padding-top: 15px;
+    font-size:18px;
+   
+
+
+}
+.challenge{
+    max-width: 190px;
+    position: absolute;
+    top: -85px;
+    right: 460px;
+    
+}
+.challenge img{
+    width: 100%;
+    
+}
+ 
