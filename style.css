@@ -57,3 +57,45 @@
     font-weight: bold;
 }
 
+/* header-banner */
+.header-banner{
+    display: flex;
+    max-width: 1020px;
+    margin:0px auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 191px;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+.banner-content{
+    max-width: 500px;
+    font-family: serif;
+    margin-top: 72px;
+
+   
+
+}
+.banner-content h1{
+    font-size: 40px;
+
+
+}
+.flower{
+    display: block;
+    margin-top: 12px;
+}
+.pera{
+    display: block;
+}
+.banner-content p{
+    font-family: sans-serif;
+}
+.banner-image{
+    max-width: 500px;
+
+}
+.banner-image img{
+    width: 100%;
+}
+
