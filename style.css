@@ -238,16 +238,17 @@
 
     .grid {
         grid-template-columns: 1fr 1fr;
-        justify-content: space-between;
+        /* column-gap: 10px; */
+       
     }
 
     .grid .card {
-        max-width: 150px;
+        max-width: 145px;
         margin: 0px auto;
     }
 
     .grid .card .primary-btn {
-        width: 150px;
+        width: 145px;
         height: 35px;
         border-radius: 2px;
 
