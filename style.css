@@ -243,12 +243,12 @@
     }
 
     .grid .card {
-        max-width: 145px;
+        max-width: 140px;
         margin: 0px auto;
     }
 
     .grid .card .primary-btn {
-        width: 145px;
+        width: 140px;
         height: 35px;
         border-radius: 2px;
 
