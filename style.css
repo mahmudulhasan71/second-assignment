@@ -4,6 +4,7 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+        background-color: #f5f8ff;
 }
 
 /* color-code */
@@ -77,7 +78,7 @@
 .banner-content {
     max-width: 500px;
     font-family: serif;
-    margin-top: 72px;
+    margin-top: 80px;
 
 
 
@@ -112,11 +113,11 @@
 }
 
 /* main-section */
+
 /* our-plants-section */
 .our-plants {
     max-width: 1020px;
     margin: 50px auto;
-    /* justify-content: center; */
     text-align: center;
 }
 
@@ -132,7 +133,6 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* justify-content: baseline; */
     margin-top: 35px;
     row-gap: 30px;
     column-gap: 20px;
@@ -141,7 +141,6 @@
 
 .grid .card {
     max-width: 240px;
-    /* justify-content: baseline; */
 }
 
 .grid .card img {
@@ -241,18 +240,20 @@
     max-width: 1020px;
     margin: 30px auto;
     display: grid;
+    /* justify-content: space-between; */
     grid-template-rows: 175px 175px;
     grid-template-columns: repeat(1, 1fr)2fr;
     row-gap: 20px;
-    column-gap: 20px;
+    column-gap:20px;
 }
 
 .image-1 {
-    background-image: url(assets/deal-bloom.png);
+    background-image: linear-gradient(rgba(27, 27, 27, 0.5),rgba(27, 27, 27, 0.5)),url(assets/deal-bloom.png);
+   
     border-radius: 8px;
     grid-column: 1/2;
     grid-row: 1/2;
-    max-width: 330px;
+    max-width: 340px;
 
 }
 
@@ -266,12 +267,12 @@
 }
 
 .image-2 {
-    background-image: url(assets/deal-ana.png);
+    background-image:linear-gradient(rgba(23, 22, 22, 0.5),rgba(27, 25, 25, 0.5)),url(assets/deal-ana.png);
     border-radius: 8px;
 
     grid-column: 1/2;
     grid-row: 2/3;
-    max-width: 330px;
+    max-width: 340px;
 
 
 
@@ -284,11 +285,11 @@
 }
 
 .image-3 {
-    background-image: url(assets/deal-zabo.png);
+    background-image:linear-gradient(rgba(24, 23, 23, 0.5),rgba(16, 16, 16, 0.5)),url(assets/deal-zabo.png);
     border-radius: 8px;
     grid-column: 2/4;
     grid-row: 1/3;
-    max-width: 660px;
+    max-width: 680px;
 
 
 }
@@ -298,21 +299,117 @@
     border-radius: 8px;
     filter: blur(5)
 }
+
 /* title  */
-.title{
+.title {
     display: block;
     font-weight: bold;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin: 0px auto;
     margin-top: 70px;
-   
+
 }
-.image-3 p{
-    margin:160px;
+
+.image-3 p {
+    margin: 160px;
     font-size: 30px;
 }
-.shop{
+
+.shop {
     color: #FFFFFF;
 
-  
+
+}
+
+/* news-letter-banner-section */
+.news-letter-banner {
+    background-image: url(assets/news-letter-bg.png);
+    max-width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 60px;
+
+
+}
+
+
+.banner-item {
+    margin: 0px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-item>h1 {
+    padding-top: 120px;
+    font-size: 40px;
+    font-family: serif;
+    color: #FFFFFF;
+}
+
+.banner-item .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-item .email {
+    width: 460px;
+    height: 40px;
+    padding: 3px 20px;
+    border: none;
+}
+
+.banner-item label {
+    width: 140px;
+    background-color: #E95A08;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 15px;
+    margin-left: 0px;
+    border-radius: 2px;
+
+    /* border:1px solid black; */
+}
+
+
+/* footer-section  */
+.footer-container{
+    display: flex;
+    max-width: 1020px;
+    justify-content:space-between;
+    margin: 50px auto;
+    
+}
+.footer-content{
+    margin-top: 15px;
+}
+
+
+.footer .footer-menu ul li{
+    list-style: none;
+    margin: 20px;
+}
+.footer .footer-menu ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer .footer-service ul li{
+    list-style: none;
+    margin: 20px;
+
+}
+.footer .footer-service ul li a{
+    text-decoration: none;
+    color: #8987A1;
+
+}
+.social-media-icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 18px;
+}
+.social-media-icon .icon:nth-child(2){
+    padding-top: 10px;
 }
