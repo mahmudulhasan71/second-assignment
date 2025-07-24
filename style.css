@@ -70,17 +70,25 @@
 
 @media screen and (max-width:426px) {
     .navigation-bar {
-        margin: 12px 25px;
+        margin: 2px 25px;
     }
 
+    .navigation-bar .brand-name {
+        max-width: 80px;
+    }
 
     .navigation-bar .menu {
         margin-top: 20px;
     }
 
     .navigation-bar .menu ul {
-        gap: 18px;
+        gap: 15px;
     }
+
+    .navigation-bar .menu ul li {
+        font-size: 14px;
+    }
+
 
 
     .menu-li-2 {
@@ -230,15 +238,16 @@
 
     .grid {
         grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
     }
 
     .grid .card {
-        max-width: 170px;
+        max-width: 155px;
         margin: 0px auto;
     }
 
     .grid .card .primary-btn {
-        width: 170px;
+        width: 155px;
         height: 35px;
         border-radius: 2px;
 
@@ -318,7 +327,7 @@
     }
 
     .blog .blog-image {
-        max-width: 360px;
+        max-width: 355px;
         margin: 0px auto;
 
     }
